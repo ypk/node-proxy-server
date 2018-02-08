@@ -29,7 +29,11 @@ let server = http.createServer((req, res, next) => {
         opts.headers.forEach((header) => {
           res.setHeader(header.key, header.value);
           res.setHeader('Set-Cookie', cookie.serialize(header.key, String(header.value), {
-            httpOnly: true,
+            httpOnly: false,
+            path: '/',
+            domain: '.share.local',
+            sameSite: 'strict',
+            secure: false,
             maxAge: 60 * 15
           }));
         })
