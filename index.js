@@ -24,7 +24,6 @@ let server = http.createServer((req, res, next) => {
     });
     if(req.url.indexOf(opts.source) > -1){
       res.oldWriteHead = res.writeHead;
-
       res.writeHead = (statusCode, headers) => {
         opts.headers.forEach((header) => {
           res.setHeader(header.key, header.value);
