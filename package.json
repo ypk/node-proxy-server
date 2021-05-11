@@ -10,14 +10,14 @@
   "author": "Prasanna K Yalala <yprasannakumar@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "babel-cli": "^6.18.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
     "cookie": "^0.3.1",
     "http-proxy": "^1.16.2",
-    "node-http-proxy": "^0.2.3",
+    "node-http-proxy": "^0.1.5",
     "nodemon": "^1.14.12",
-    "pm2": "^2.9.3"
+    "pm2": "^4.5.6"
   }
 }
