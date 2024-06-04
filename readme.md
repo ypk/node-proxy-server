@@ -11,8 +11,8 @@ This project sets up a basic HTTP proxy server using Node.js. The server listens
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/http-proxy-server.git
-    cd http-proxy-server
+    git clone git@github.com:ypk/node-proxy-server.git
+    cd node-proxy-server
     ```
 
 2. Install the required dependencies:
@@ -36,5 +36,5 @@ The proxy server configuration is defined in the `opts` object within the `serve
 To start the proxy server, run the following command in the project directory:
 
 ```sh
-node server.js
+npm start
 ```
